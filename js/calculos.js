@@ -1,0 +1,4 @@
+
+export function formatarPreco(valor){
+    return new Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'brl'}).format(valor)
+}
